@@ -8,11 +8,12 @@ namespace _24SOEIT13019_RUTVIK
         {
             for (int i = 1; i <= 10; i++)
             {
-                Console.WriteLine();
-                for (int j = i; j<i+1; j++)
+                
+                for (int j =i; j>i+i; j++)
                 {
                     Console.Write(j);
                 }
+                Console.WriteLine();
                 
             }
         }
